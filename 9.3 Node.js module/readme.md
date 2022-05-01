@@ -16,8 +16,10 @@ nodejs가 기본적으로 포함하고 있는 모듈을 코어 모듈이라고 �
 ```js
 // 코어 모듈
 const http = require('http');
+
 // npm을 통해 설치한 외부 패키지 또한 패스를 명시하지 않아도 무방하다.
 const mongoose = require('mongoose');
+
 // 파일 모듈은 패스를 명시해야 한다.
 const foo = require('./lib/foo');
 ```
